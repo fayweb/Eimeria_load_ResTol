@@ -6,8 +6,9 @@ Overview
 This repository focuses on the comparative analysis of resistance and tolerance in Eimeria ferrisi and Eimeria falciformis infections. Leveraging advanced DNA-based parasite quantification and traditional oocyst counts, the project explores:
 
 Infection dynamics across two related Eimeria species.
-Predictive power of parasite load measures for host health outcomes (e.g., weight loss).
+The predictive power of parasite load measures for host health outcomes (e.g., weight loss).
 Resistance-tolerance trade-offs in controlled experimental setups.
+
 Objectives
 To investigate species-specific differences in resistance and tolerance coupling.
 To compare traditional oocyst counts and DNA-based quantification methods in their predictive power for host health metrics.
@@ -20,6 +21,15 @@ Eimeria_load_ResTol/
 ├── README.md                    # Repository overview
 ├── Data/                        # All data files
 │   ├── Raw/                     # Unprocessed data for Quant1 (E. ferrisi) and Quant2 (E. falciformis)
+│   │   ├── Eimeria_Quant/       # Raw data for Quant1 (E. ferrisi)
+│   │   │   ├── Eimeria_quantification_Inf_exp_data.xlsx  # Experimental infection data
+│   │   │   ├── Eimeria_quantification_Sample_data.xlsx   # Sample-level data
+│   │   │   ├── Eimeria_quantification_Std_Curve_data.xlsx# Standard curve data
+│   │   │   ├── Inf1b_Exp005.DESIGN.xlsx                  # Experimental design file
+│   │   │   ├── sample_data_infb_Exp005.xlsx              # Sample-specific data
+│   │   │   ├── Sample_Data_OUT.xlsx                      # Output file for processed sample data
+│   │   ├── Eimeria_Quant2/      # Raw data for Quant2 (E. falciformis)
+│   │       ├── (Add details of files here as they are created or added)
 │   ├── Processed/               # Cleaned and merged datasets
 ├── Documentation/               # Detailed project documentation
 │   ├── Data_Documentation.md    # Information about data sources and cleaning processes
@@ -39,6 +49,7 @@ Eimeria_load_ResTol/
 │   ├── References.bib           # Bibliography in BibTeX format
 ├── Tools/                       # Additional tools or resources for the project
 └── LICENSE                      # License information
+
 ```
 How to Use
 1. Clone the repository:
