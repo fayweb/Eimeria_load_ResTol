@@ -40,7 +40,7 @@ Eimeria_load_ResTol/
 │   │   │   ├── E88_primary_sample_location.csv           # Sample location data for E88 primary infection samples
 │   │   │   ├── Quant2_E57.csv                            # Quantification data for E57 samples
 │   │   │   ├── Standard_curve.csv                        # Standard curve for DNA quantification
-│   │   │   ├── challange_infections.csv                  # Data for challenge infections
+│   │   │   ├── challenge_infections.csv                  # Data for challenge infections from the repository https://github.com/fayweb/Hybrid_health_outcomes/blob/main/data/lab/final/lab_cleaned_data.csv
 │   │   │   ├── qPCR/                                     # Folder containing qPCR-specific data
 │   ├── Processed/               # Cleaned and merged datasets
 ├── Documentation/               # Detailed project documentation
