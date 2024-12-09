@@ -16,6 +16,7 @@ To explore temporal dynamics of parasite load and health impacts.
 Repository Structure
 This repository is organized for reproducible research, with clear separation of raw data, processed data, scripts, and outputs.
 Eimeria_load_ResTol/
+```
 ├── README.md                    # Repository overview
 ├── Data/                        # All data files
 │   ├── Raw/                     # Unprocessed data for Quant1 (E. ferrisi) and Quant2 (E. falciformis)
@@ -38,7 +39,7 @@ Eimeria_load_ResTol/
 │   ├── References.bib           # Bibliography in BibTeX format
 ├── Tools/                       # Additional tools or resources for the project
 └── LICENSE                      # License information
-
+```
 How to Use
 1. Clone the repository:
 git clone https://github.com/yourusername/Eimeria_load_ResTol.git
