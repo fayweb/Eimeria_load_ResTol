@@ -15,7 +15,11 @@ To compare traditional oocyst counts and DNA-based quantification methods in the
 To explore temporal dynamics of parasite load and health impacts.
 
 Repository Structure
-This repository is organized for reproducible research, with clear separation of raw data, processed data, scripts, and outputs.
+This repository is organized for reproducible research, with a clear separation of raw data, processed data, scripts, and outputs.
+The raw data contain data from two repositories. 
+Eimeria_Quant: https://github.com/derele/Eimeria_Quant/tree/master
+Eimeria_Quant2: https://github.com/Dileshi/Eimeria_Quant2
+
 Eimeria_load_ResTol/
 ```
 ├── README.md                    # Repository overview
@@ -29,7 +33,15 @@ Eimeria_load_ResTol/
 │   │   │   ├── sample_data_infb_Exp005.xlsx              # Sample-specific data
 │   │   │   ├── Sample_Data_OUT.xlsx                      # Output file for processed sample data
 │   │   ├── Eimeria_Quant2/      # Raw data for Quant2 (E. falciformis)
-│   │       ├── (Add details of files here as they are created or added)
+│   │   │   ├── E64_challenged_Nanodrop.csv               # Nanodrop data for E64 challenged samples
+│   │   │   ├── E64_challenged_fecweight.csv              # Fecal weight data for E64 challenged samples
+│   │   │   ├── E88_primary_Nanodrop.csv                  # Nanodrop data for E88 primary infection samples
+│   │   │   ├── E88_primary_fecweight.csv                 # Fecal weight data for E88 primary infection samples
+│   │   │   ├── E88_primary_sample_location.csv           # Sample location data for E88 primary infection samples
+│   │   │   ├── Quant2_E57.csv                            # Quantification data for E57 samples
+│   │   │   ├── Standard_curve.csv                        # Standard curve for DNA quantification
+│   │   │   ├── challange_infections.csv                  # Data for challenge infections
+│   │   │   ├── qPCR/                                     # Folder containing qPCR-specific data
 │   ├── Processed/               # Cleaned and merged datasets
 ├── Documentation/               # Detailed project documentation
 │   ├── Data_Documentation.md    # Information about data sources and cleaning processes
